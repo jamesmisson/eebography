@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Eebography</title>
+        <link rel="icon" type="image/x-icon" href="icon.png">
+        <meta charset="utf8">
+        <link rel="stylesheet" href="style.css">
+        <script src="node_modules/fontsampler-js/dist/fontsampler.js"></script>
+        <script src="node_modules/fontsampler-js/dist/fontsampler-skin.js"></script>
+        <link rel="stylesheet" href="./node_modules/fontsampler-js/dist/fontsampler-skin.css">
+    
+    
+    </head>
+    
+    <body class="bodyNormal" id="body">
+
+        <main>
+
+            <div id="menu"><ul id="menulist">
+                <li><a href="#demo" class="link" id="demoLink">Demo</a></li>
+
+                <li><a href="#features" class="link">Features</a></li>
+                <li><a href="#use" class="link">Use</a></li>
+                <li><a href="#download" class="link">Download</a></li>
+                <li><a href="#license" class="link">License</a></li>
+                <li><span id="switch">◑</span></li>
+            
+
+            </ul></div>
+
+        
+    
+        <div id="header">
+            <h1>Eebography</h1>
+
+            <img src="header2.jpg">
+            <h2>A typographic <span style="text-decoration:line-through; text-decoration-thickness: 6px;">parody of</span> tribute to <span id="h2italics">Early English Books Online</span>. { }  []</h2>
+        </div>
+        <div id="bodytext" class="bodyNormal">
+        <div>
+            <p><span class="dropcap">E</span>ebography started life as a sick joke: a font that replicated the infamous visual distortions of the <em class="italics">Early English Books Online</em> database. Since its launch in 2000, researchers have become increasingly reliant on <em class="italics">EEBO</em> to access rare early-modern books, but the low-fidelity digitisations means that reading these texts is often difficult, and occasionally impossible. Consternation brewed over whether the so-called “<em class="italics">EEBO</em> Generation” could conduct rigorous research with a platform that encouraged breadth at the expense of depth. <em class="italics">EEBO</em> bore a stigma. So what kind of cognitive dissonance could be created by reanimating these historical, imperfect letterforms with living text?
+            </p>
+        </div>
+        <div id="demo" autofocus></div>
+        
+    
+        <br>
+
+        <div>
+            <p>
+                From that beginning, Eebography has turned into a more considered study of how <em class="italics">EEBO</em> remediates historical texts. The warped and pixel-encrusted letterforms we see on our screens are the consequence of a long chain of transmission beginning with the punchcutter, whose designs were passed through metal type, inked paper, developed microfilm, scanned digital images, and online rendering – not to mention the years of use and storage that elapsed between these steps. At each stage, a new medium inscribed its idiosyncrasies on the letterforms. Have they degraded, or have they developed? 
+            </p>
+            <p>
+                Despite the infamy of its images, <em class="italics">EEBO</em> should be considered a miracle of modern research. It represents almost all surviving early-modern editions in English. Such a feat could only be accomplished across centuries – its messy transitions from technology to technology were inevitable. And so, far from a stigma, the marks and blotches we see in its images should be considered indexes of <em class="italics">EEBO</em>’s unsurpassed utility.
+            </p>
+            </div>
+        
+        <div>
+        <h3 id="features">Features</h3>
+        <p>
+            Eebography has roman, italic, and blackletter fonts. They include the letters, ligatures, and positional variants you'd find in a sixteenth-century typecase. They also have some of the accidents of production found in early-modern books: inked shoulders, raised spaces, and show-through can be represented by keying any punctuation not used in the early-modern period. At small sizes, the font recreates the blotchiness of presswork, but – like the pixels of <em class="italics">EEBO</em>'s images – the letterforms are comprised only of straight lines.
+        </p>
+        </div>
+
+
+        <!-- <div class="bigone-italic">Q</div> -->
+        <div class="bigone-black">H</div>
+        <!-- <div class="bigone-italic">A</div> -->
+
+
+        <div id="use">
+                <h3>Use</h3>
+<p>To install the font, open the downloaded files with Font Book (Mac) or Font Viewer (Windows) and click install. Re-open Word and you'll find it in the Font menu. To get the full EEBO look, use these settings:
+</p>
+    <ul>
+    <li>19 or 20 pt</li>
+    <li>Single spacing</li>
+    <li>Justified</li>
+    <li>Allow hyphenation (in Word's paragraph settings)</li>
+</ul>
+<p>
+You'll need to activate the OpenType features to get all the positional variants: in Word, go into the advanced font settings and select 'All' under 'Ligatures', and tick the box for 'Use Contextual Alternates'.
+            </p>
+            </div>
+
+            <div id="download">
+                <h3>Download</h3>
+                <p>Coming soon.
+                </p>
+    
+        </div>
+
+        <div id="license">
+        <h3>License</h3>
+        <p>Eebography is shared under the SIL Open Font License – free to use or modify.</p>
+        </div>
+        <!-- <div id="dot"></div> -->
+        <br>
+        <div>
+            <h2><span id="h2italics">“Whatever you now find weird, ugly, uncomfortable and nasty about a new medium will surely become its signature. CD distortion, the jitteriness of digital video, the crap sound of 8-bit - all of these will be cherished and emulated as soon as they can be avoided. It’s the sound of failure: so much modern art is the sound of things going out of control, of a medium pushing to its limits and breaking apart. The distorted guitar sound is the sound of something too loud for the medium supposed to carry it. The blues singer with the cracked voice is the sound of an emotional cry too powerful for the throat that releases it. The excitement of grainy film, of bleached-out black and white, is the excitement of witnessing events too momentous for the medium assigned to record them.”</span> <br/> — Brian Eno</h2>
+        </div>
+    </div>
+
+
+
+    </main>
+
+
+
+
+
+
+
+       
+
+    <script>
+    // fontsampler
+    window.onload = function() {
+
+        var options = {
+    initialText: "Type here",
+
+    order: [["fontfamily"], ["fontsize", "lineheight"], ["tester"]],
+
+    ui: {
+        fontsize: {
+            init: 36,
+            min: 12,
+            max: 200,
+            step: 1,
+            unit: "px",
+
+        },
+
+        lineheight: {
+            min: 60,
+            max: 150,
+            init: 120
+        },
+
+        fontfamily: {
+            label: '',
+        },
+    }
+}
+
+    var fonts = [
+        { 
+            name: "Roman", 
+            files: ["fonts/Eebography-Roman.woff"
+            ] 
+        },
+        { 
+            name: "Italic", 
+            files: ["fonts/Eebography-Italic.woff"
+            ] 
+        },
+        { 
+            name: "Blackletter", 
+            files: ["fonts/Eebography-Black.woff"
+            ] 
+        },
+        
+    ]
+
+            var fs = new Fontsampler(document.getElementById("demo"), fonts, options)
+            FontsamplerSkin(fs)
+            fs.init()
+    }
+    </script>
+
+    
+<script>
+    //blackletter switch
+    let dot = document.getElementById("switch");
+
+    dot.addEventListener("mouseenter", changeFont)
+    dot.addEventListener("mouseout", changeFont)
+
+
+    function changeFont() {
+        var fon = document.getElementById("bodytext");
+        var em = document.getElementsByTagName("em");
+
+
+        if (fon.className == "bodyNormal") {
+            fon.className = 'bodyBlack';
+            for (i = 0; i < em.length; i++) {
+                em[i].className = 'romBlack';
+            }
+
+        } 
+        else {
+            fon.className = "bodyNormal";
+            for (i = 0; i < em.length; i++) {
+                em[i].className = 'italics';
+            }
+     }
+}
+</script>
+
+<script>
+
+// let demo = document.getElementById("demoLink")
+
+// demo.addEventListener("mouseenter", addNoise)
+// demo.addEventListener("mouseout", addNoise)
+
+// let links = document.querySelectorAll('.link');
+
+// links.forEach(function(link) {
+//     link.addEventListener("mouseenter", function() {
+//         let n = link.nextSibling;
+//             n.className = "noisehover";
+//     });
+// }
+
+// );
+
+// links.forEach(function(link) {
+//     link.addEventListener("mouseout", function() {
+//         let n = link.nextSibling;
+//             n.className = "noise";
+ 
+//     });
+// });
+
+
+
+
+</script>
+
+</body>
+
+</html>
+

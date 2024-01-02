@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
+    font-variant-alternates: historical-forms;
+    /* position: static; */
+}
+
+img {
+    line-height: 24px;
+}
+
+#switch {
+    line-height: 1.3em;
+    font-size: 45px;
+}
+
+#menu {
+    /* for right margin fixed position bottom of page*/
+    position: fixed;
+    left: 50%;
+    top: 130px;
+    transform: translateX(265%);
+}
+
+#menulist {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.2em;
+    font-family: Eebography-Italic;
+    list-style-type: none;
+}
+
+/* unvisited link */
+a:link, a:active, a:visited, a:hover {
+    color: black;
+    text-decoration: none;
+  }
+ 
+
+
+.bodyNormal {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:Eebography-Black; */
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 580px;
+    margin: 0 auto;
+    padding-top: 0; 
+}
+
+
+.bodyBlack {
+    font-family: Eebography-Black;
+    text-align: justify;
+    hyphens: auto;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 580px;
+    margin: 0 auto;
+    padding-top: 0; 
+}
+
+.rom {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.italics {
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style: italic; */
+}
+
+.romBlack {
+    font-family: Eebography-Roman;
+    font-style: normal;
+}
+
+.italicsBlack {
+    font-family: Eebography-Italic;
+    font-style: normal;
+}
+
+
+
+#dot {
+    height: 40px;
+    width: 40px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: fixed;
+    top:1rem;
+    right: 1rem;
+  }
+
+
+
+aside {
+    display: inline;
+    float: right;
+    position: relative;
+    width: 10vw;
+    margin-right: -12vw;
+    font-size: 18px;
+    font-family: Eebography-Italic;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p strong {
+    display: block;
+}
+
+h1 {
+    font-size: 108px;
+    font-family: Eebography-Black;
+    font-weight:100;
+    margin-block-start: 0.70em;
+    margin-block-end: 0.40em;
+
+}
+
+
+h2, h3 {
+    font-family: Eebography-Roman;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight:lighter;
+    margin-block-start: 0.20em;
+    margin-block-end: 0;
+    text-align: left;
+    
+}
+
+/* h3 {
+    font-family: Eebography-Black;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight:lighter;
+    margin-block-start: 0.20em;
+    margin-block-end: 0;
+} */
+
+#h2italics {
+    font-family: Eebography-Italic;
+}
+
+
+
+
+.dropcap {
+    /* change to Eebography */
+    float: left;
+    font-family: Eebography-Roman;
+    /* font-family: times; */
+    font-size: 75px;
+    line-height: 60px;
+    margin-top: 12px;
+    margin-bottom: -15px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+}
+
+.bigone-black {
+    font-family: Eebography-Black;
+    font-size: 700px;
+    line-height: 1.1em;
+    text-align: center;
+    /* color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+}
+
+.bigone-italic {
+    font-family: Eebography-Italic;
+    font-size: 700px;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Eebography-Black";
+    src: url("fonts/Eebography-Black.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Eebography-Italic";
+    src: url("fonts/Eebography-Italic.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Eebography-Roman";
+    src: url("fonts/Eebography-Roman.woff") format('woff');
+}
